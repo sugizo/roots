@@ -1,0 +1,45 @@
+
+<section id="footer">
+  <div class="container">
+    <header class="major">
+      <h2>Tell us your IT Problem</h2>
+    </header>
+    <form id="formaction" method="post">
+      <div class="row uniform">
+        <div class="6u 12u$(xsmall)">
+          <input id="name" type="text" name="name" required="required" placeholder="Name"/>
+        </div>
+        <div class="6u $ 12u$(xsmall)">
+          <input id="email" type="email" name="email" required="required" placeholder="Your Email"/>
+        </div>
+        <div class="12u $">
+          <textarea id="message" name="message" required="required" placeholder="Your Message" rows="4"></textarea>
+          <input type="text" name="_gotcha" style="display:none"/>
+          <input type="hidden" name="_next" value="thanks"/>
+        </div>
+        <div class="12u $">
+          <ul class="actions">
+            <li>
+              <input type="submit" value="send message" class="special"/>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script>
+    var contactform = document.getElementById('formaction');
+    contactform.setAttribute('action', '//formspree.io/' + 'stifan.kristi@stifix.com');
+  </script>
+  <footer>
+    <ul class="icons">
+      <li><a href="https://facebook.com/stifixid" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="https://twitter.com/stifixid" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="https://plus.google.com/+Stifix" class="icon alt fa-google-plus"><span class="label">Google Plus</span></a></li>
+      <li><a href="mailto:stifan.kristi@stifix.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>© 2017 stifix. All rights reserved.</li>
+    </ul>
+  </footer>
+</section>
