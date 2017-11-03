@@ -1,6 +1,6 @@
 # Clone the repository
 	cd ~/git
-	git clone https://github.com/sugizo/roots
+	git clone https://github.com/sugizo/roots_build
 
 # Create File
 	cd roots
